@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "project-1",
+      "description": "Abstract project 1 visual",
+      "imageUrl": "https://images.unsplash.com/photo-1738168505817-e8ddb27bbd85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0ZWNoJTIwaW50ZXJmYWNlfGVufDB8fHx8MTc2MTgzMTkzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech interface"
+    },
+    {
+      "id": "project-2",
+      "description": "Abstract project 2 visual",
+      "imageUrl": "https://images.unsplash.com/photo-1594729095022-e2f6d2eece9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMGNvZGV8ZW58MHx8fHwxNzYxODY2NDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract code"
+    },
+    {
+      "id": "project-3",
+      "description": "Abstract project 3 visual",
+      "imageUrl": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXRhJTIwdmlzdWFsaXphdGlvbnxlbnwwfHx8fDE3NjE4OTQzNjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data visualization"
+    },
+    {
+      "id": "project-4",
+      "description": "Abstract project 4 visual",
+      "imageUrl": "https://images.unsplash.com/photo-1717501219008-5f436ead74d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxuZXR3b3JrJTIwbm9kZXN8ZW58MHx8fHwxNzYxOTAwOTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "network nodes"
+    }
+  ]
 }
