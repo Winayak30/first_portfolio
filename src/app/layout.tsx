@@ -6,7 +6,7 @@ import OrbCursor from "@/components/ui/orb-cursor";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Cyber Minimalist Portfolio",
+  title: "Vinayak Tripathi's Portfolio",
   description: "A developer portfolio with a cyber-minimalist aesthetic.",
 };
 

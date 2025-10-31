@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin, Code, Rss } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 export type Project = {
@@ -17,14 +17,14 @@ export type Social = {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Project Cygnus",
-    tech: ["Next.js", "Vercel", "PostgreSQL"],
+    title: "DocNav",
+    tech: ["Flutter", "Firebase", "Keras"],
     image: "project-1",
   },
   {
     id: 2,
-    title: "Project Lyra",
-    tech: ["React Native", "Firebase", "TypeScript"],
+    title: "Sign Language Interpreter",
+    tech: ["OpenCV", "MediaPipe", "NumPy", "Keras (CNN)", "Python", "pyttsx3"],
     image: "project-2",
   },
   {
@@ -42,9 +42,10 @@ export const projects: Project[] = [
 ];
 
 export const skills: Record<string, string[]> = {
-  "Languages": ["TypeScript", "JavaScript", "Python", "HTML5", "CSS3"],
-  "Frameworks & Libraries": ["React", "Next.js", "Node.js", "Express", "Tailwind CSS"],
-  "Databases & Tools": ["PostgreSQL", "MongoDB", "Docker", "Git", "Figma"],
+  "Programming Languages": ["Python", "Java", "Dart", "C++"],
+  "Libraries/Frameworks": ["Flutter", "NumPy", "Matplotlib", "Pandas", "Keras"],
+  "Tools/Platforms": ["Git", "Android Studio", "Github", "Firebase", "Docker", "Google Collab"],
+  "Databases": ["MongoDB", "Firestore"],
 };
 
 export const socials: Social[] = [
@@ -59,8 +60,13 @@ export const socials: Social[] = [
     icon: Linkedin,
   },
   {
-    name: "Twitter",
-    url: "https://twitter.com",
-    icon: Twitter,
+    name: "LeetCode",
+    url: "https://leetcode.com",
+    icon: Code,
   },
+  {
+    name: "Blog",
+    url: "#",
+    icon: Rss,
+  }
 ];

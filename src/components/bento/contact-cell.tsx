@@ -9,7 +9,7 @@ import { Copy } from "lucide-react";
 export default function ContactCell() {
   const { setCursorType } = useCursor();
   const { toast } = useToast();
-  const email = "your.email@example.com";
+  const email = "tripathivinayak30@gmail.com";
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(email);

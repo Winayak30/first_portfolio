@@ -12,7 +12,7 @@ export default function HeroCell() {
       <div id="about" className="flex h-full flex-col justify-center">
         <h1 className="font-headline text-h1-m md:text-h1-d font-black uppercase">
           <span className="glitch-text bg-gradient-to-b from-primary to-foreground bg-clip-text text-transparent">
-            Your Name
+            VINAYAK TRIPATHI
           </span>
           <br />
           Developer
