@@ -1,3 +1,5 @@
+"use client";
+
 import { useCursor } from "@/contexts/cursor-context";
 import { Button } from "../ui/button";
 import GlassPanel from "./glass-panel";

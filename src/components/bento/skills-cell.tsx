@@ -1,3 +1,5 @@
+"use client";
+
 import { skills } from "@/lib/data";
 import { useCursor } from "@/contexts/cursor-context";
 import GlassPanel from "./glass-panel";
