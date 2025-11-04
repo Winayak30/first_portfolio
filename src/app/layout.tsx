@@ -6,7 +6,7 @@ import OrbCursor from "@/components/ui/orb-cursor";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Vinayak Tripathi's Portfolio",
+  title: "VINAYAK TRIPATHI's Portfolio",
   description: "A developer portfolio with a cyber-minimalist aesthetic.",
 };
 
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="dark" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
