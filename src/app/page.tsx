@@ -19,10 +19,10 @@ export default function Home() {
           >
             <HeroCell />
           </AnimatedBentoCell>
-          <AnimatedBentoCell staggerIndex={1}>
+          <AnimatedBentoCell staggerIndex={1} className="md:col-span-2">
             <ProjectCard project={projects[0]} />
           </AnimatedBentoCell>
-          <AnimatedBentoCell staggerIndex={2}>
+          <AnimatedBentoCell staggerIndex={2} className="md:col-span-2">
             <ProjectCard project={projects[1]} />
           </AnimatedBentoCell>
           <AnimatedBentoCell
@@ -31,7 +31,7 @@ export default function Home() {
           >
             <SkillsCell />
           </AnimatedBentoCell>
-          <AnimatedBentoCell staggerIndex={3}>
+          <AnimatedBentoCell staggerIndex={3} className="md:col-span-2">
             <ProjectCard project={projects[2]} />
           </AnimatedBentoCell>
           <AnimatedBentoCell
