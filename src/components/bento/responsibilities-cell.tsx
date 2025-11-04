@@ -17,7 +17,9 @@ export default function ResponsibilitiesCell() {
                   {resp.role}
                 </h3>
                 <p className="text-ui-m text-secondary-foreground md:text-ui-d">
-                  {resp.organization} | {resp.dates}
+                  {resp.organization}
+                  <br />
+                  {resp.dates}
                 </p>
               </div>
             ))}
