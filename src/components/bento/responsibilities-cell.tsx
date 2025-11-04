@@ -10,13 +10,13 @@ export default function ResponsibilitiesCell() {
           Responsibilities
         </h2>
         <ScrollArea className="mt-4 flex-grow pr-4">
-          <div className="space-y-6">
+          <div className="space-y-4">
             {responsibilities.map((resp, index) => (
               <div key={index}>
-                <h3 className="font-bold text-ui-d text-primary">
+                <h3 className="font-bold text-body-m text-primary md:text-body-d">
                   {resp.role}
                 </h3>
-                <p className="text-sm text-secondary-foreground">
+                <p className="text-ui-m text-secondary-foreground md:text-ui-d">
                   {resp.organization} | {resp.dates}
                 </p>
               </div>
