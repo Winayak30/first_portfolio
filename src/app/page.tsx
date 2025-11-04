@@ -22,13 +22,13 @@ export default function Home() {
           </AnimatedBentoCell>
           <AnimatedBentoCell
             staggerIndex={1}
-            className="md:col-span-2 md:row-span-2"
+            className="md:col-span-1 md:row-span-1"
           >
             <ProjectCard project={projects[0]} />
           </AnimatedBentoCell>
           <AnimatedBentoCell
             staggerIndex={2}
-            className="md:col-span-2 md:row-span-2"
+            className="md:col-span-1 md:row-span-1"
           >
             <ProjectCard project={projects[1]} />
           </AnimatedBentoCell>
