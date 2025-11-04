@@ -94,22 +94,17 @@ export const skills: Record<string, string[]> = {
 export const socials: Social[] = [
   {
     name: "GitHub",
-    url: "https://github.com",
+    url: "https://github.com/Winayak30",
     icon: Github,
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com",
+    url: "https://www.linkedin.com/in/vinayak-tripathi-9a3001284/",
     icon: Linkedin,
   },
   {
     name: "LeetCode",
-    url: "https://leetcode.com",
+    url: "https://leetcode.com/u/oBFeoOvaMD/",
     icon: Code,
-  },
-  {
-    name: "Blog",
-    url: "#",
-    icon: Rss,
   },
 ];
