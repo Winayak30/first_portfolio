@@ -29,15 +29,9 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Project Draco",
+    title: "Responsibilities",
     tech: ["Python", "FastAPI", "Docker"],
     image: "project-3",
-  },
-  {
-    id: 4,
-    title: "Project Orion",
-    tech: ["Three.js", "WebGL", "GSAP"],
-    image: "project-4",
   },
 ];
 

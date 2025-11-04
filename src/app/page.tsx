@@ -28,13 +28,10 @@ export default function Home() {
           <AnimatedBentoCell staggerIndex={3}>
             <ProjectCard project={projects[2]} />
           </AnimatedBentoCell>
-          <AnimatedBentoCell staggerIndex={4}>
-            <ProjectCard project={projects[3]} />
-          </AnimatedBentoCell>
-          <AnimatedBentoCell className="md:col-span-2" staggerIndex={5}>
+          <AnimatedBentoCell className="md:col-span-2" staggerIndex={4}>
             <SkillsCell />
           </AnimatedBentoCell>
-          <AnimatedBentoCell className="md:col-span-2" staggerIndex={6}>
+          <AnimatedBentoCell className="md:col-span-2" staggerIndex={5}>
             <ContactCell />
           </AnimatedBentoCell>
         </BentoGrid>
