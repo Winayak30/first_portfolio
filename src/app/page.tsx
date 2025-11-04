@@ -15,28 +15,28 @@ export default function Home() {
         <BentoGrid>
           <AnimatedBentoCell
             staggerIndex={0}
-            className="md:col-span-2 md:row-span-2"
+            className="md:col-span-2 md:row-span-3"
           >
             <HeroCell />
           </AnimatedBentoCell>
-          <AnimatedBentoCell staggerIndex={1} className="md:col-span-2">
+          <AnimatedBentoCell staggerIndex={1} className="md:col-span-2 md:row-span-1">
             <ProjectCard project={projects[0]} />
           </AnimatedBentoCell>
-          <AnimatedBentoCell staggerIndex={2} className="md:col-span-2">
+          <AnimatedBentoCell staggerIndex={2} className="md:col-span-2 md:row-span-1">
             <ProjectCard project={projects[1]} />
           </AnimatedBentoCell>
-          <AnimatedBentoCell
-            staggerIndex={4}
-            className="md:col-span-2"
-          >
-            <SkillsCell />
-          </AnimatedBentoCell>
-          <AnimatedBentoCell staggerIndex={3} className="md:col-span-2">
+          <AnimatedBentoCell staggerIndex={3} className="md:col-span-2 md:row-span-1">
             <ProjectCard project={projects[2]} />
           </AnimatedBentoCell>
           <AnimatedBentoCell
+            staggerIndex={4}
+            className="md:col-span-2 md:row-span-3"
+          >
+            <SkillsCell />
+          </AnimatedBentoCell>
+          <AnimatedBentoCell
             staggerIndex={5}
-            className="md:col-span-2"
+            className="md:col-span-2 md:row-span-3"
           >
             <ContactCell />
           </AnimatedBentoCell>
