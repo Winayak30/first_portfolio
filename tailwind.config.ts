@@ -14,8 +14,8 @@ export default {
         headline: ["Exo 2", "sans-serif"],
       },
       fontSize: {
-        "h1-d": ["88px", { lineHeight: "1.1", letterSpacing: "-0.02em" }],
-        "h1-m": ["48px", { lineHeight: "1.1", letterSpacing: "-0.02em" }],
+        "h1-d": ["60px", { lineHeight: "1.1", letterSpacing: "-0.02em" }],
+        "h1-m": ["40px", { lineHeight: "1.1", letterSpacing: "-0.02em" }],
         "h2-d": ["48px", { lineHeight: "1.2", letterSpacing: "-0.02em" }],
         "h2-m": ["32px", { lineHeight: "1.2", letterSpacing: "-0.02em" }],
         "h3-d": ["24px", { lineHeight: "1.3", letterSpacing: "0em" }],
