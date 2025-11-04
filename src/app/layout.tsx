@@ -33,7 +33,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className={cn("font-body antialiased")}>
+      <body className={cn("font-body antialiased")} suppressHydrationWarning>
         <CursorProvider>
           <OrbCursor />
           {children}
