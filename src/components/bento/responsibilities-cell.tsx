@@ -6,14 +6,14 @@ export default function ResponsibilitiesCell() {
   return (
     <GlassPanel>
       <div className="flex h-full flex-col">
-        <h2 className="font-headline text-h2-m font-bold md:text-h2-d">
+        <h2 className="font-headline text-h3-m font-bold md:text-h3-d">
           Responsibilities
         </h2>
         <ScrollArea className="mt-4 flex-grow pr-4">
-          <div className="space-y-4">
+          <div className="space-y-3">
             {responsibilities.map((resp, index) => (
               <div key={index}>
-                <h3 className="font-bold text-body-m text-primary md:text-body-d">
+                <h3 className="font-bold text-ui-d text-primary md:text-body-d">
                   {resp.role}
                 </h3>
                 <p className="text-ui-m text-secondary-foreground md:text-ui-d">
