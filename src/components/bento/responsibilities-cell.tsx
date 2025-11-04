@@ -19,11 +19,6 @@ export default function ResponsibilitiesCell() {
                 <p className="text-sm text-secondary-foreground">
                   {resp.organization} | {resp.dates}
                 </p>
-                <ul className="mt-2 list-disc space-y-1 pl-5 text-body-m text-secondary-foreground">
-                  {resp.details.map((detail, i) => (
-                    <li key={i}>{detail}</li>
-                  ))}
-                </ul>
               </div>
             ))}
           </div>
