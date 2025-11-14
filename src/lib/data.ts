@@ -24,14 +24,13 @@ export type Responsibility = {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "DocNav",
+    title: "FlowForge",
     tech: [
-      "Flutter",
-      "Firebase",
-      "Keras",
-      "RESTful APIs",
-      "Data Modeling",
-      "Deep Learning",
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Workflow Automation",
+      "PostgreSQL",
     ],
     image: "project-1",
   },
