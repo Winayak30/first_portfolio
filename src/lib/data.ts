@@ -44,6 +44,12 @@ export const projects: Project[] = [
     image: "project-2",
     url: "https://github.com/Winayak30/SignLanguageInterpreter",
   },
+  {
+    id: 3,
+    title: "DocNav",
+    tech: ["Next.js", "MDX", "Tailwind CSS", "ContentLayer"],
+    image: "project-3",
+  },
 ];
 
 export const responsibilities: Responsibility[] = [
