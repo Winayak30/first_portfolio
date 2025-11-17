@@ -1,3 +1,4 @@
+
 import { Github, Linkedin, Code, Rss } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
@@ -34,6 +35,7 @@ export const projects: Project[] = [
       "PostgreSQL",
     ],
     image: "project-1",
+    url: "https://github.com/Winayak30/FlowForge",
   },
   {
     id: 2,
