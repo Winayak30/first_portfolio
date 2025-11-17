@@ -13,7 +13,7 @@ export default function SkillsCell() {
         <h2 className="font-headline text-h2-m font-bold md:text-h2-d">
           Skills & Tech
         </h2>
-        <div className="mt-4 flex-grow space-y-4">
+        <div className="mt-4 flex flex-grow flex-col justify-center space-y-4">
           {Object.entries(skills).map(([category, items]) => (
             <div key={category}>
               <h3 className="mb-2 text-sm font-medium text-secondary-foreground">
