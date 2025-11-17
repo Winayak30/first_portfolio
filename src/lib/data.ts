@@ -11,7 +11,7 @@ export type Project = {
 };
 
 export type Social = {
-  name: string;
+  name:string;
   url: string;
   icon: LucideIcon;
 };
@@ -47,7 +47,7 @@ export const projects: Project[] = [
   {
     id: 3,
     title: "DocNav",
-    tech: ["Next.js", "MDX", "Tailwind CSS", "ContentLayer"],
+    tech: ["Flutter", "Keras", "Firebase"],
     image: "project-3",
   },
 ];
