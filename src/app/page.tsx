@@ -34,15 +34,15 @@ export default function Home() {
           </AnimatedBentoCell>
           <AnimatedBentoCell
             staggerIndex={3}
-            className="md:col-span-2 md:row-span-2"
+            className="md:col-span-2 md:row-span-1"
           >
-            <ResponsibilitiesCell />
+            {projects[2] && <ProjectCard project={projects[2]} />}
           </AnimatedBentoCell>
           <AnimatedBentoCell
             staggerIndex={4}
-            className="md:col-span-1 md:row-span-1"
+            className="md:col-span-2 md:row-span-2"
           >
-            {projects[2] && <ProjectCard project={projects[2]} />}
+            <ResponsibilitiesCell />
           </AnimatedBentoCell>
           <AnimatedBentoCell
             staggerIndex={5}
@@ -52,7 +52,7 @@ export default function Home() {
           </AnimatedBentoCell>
           <AnimatedBentoCell
             staggerIndex={6}
-            className="md:col-span-2 md:row-span-3"
+            className="md:col-span-3 md:row-span-3"
           >
             <ContactCell />
           </AnimatedBentoCell>
