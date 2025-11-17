@@ -6,6 +6,7 @@ export type Project = {
   title: string;
   tech: string[];
   image: string;
+  url?: string;
 };
 
 export type Social = {
@@ -39,6 +40,7 @@ export const projects: Project[] = [
     title: "Sign Language Interpreter",
     tech: ["OpenCV", "MediaPipe", "NumPy", "Keras (CNN)", "Python", "pyttsx3"],
     image: "project-2",
+    url: "https://github.com/Winayak30/SignLanguageInterpreter",
   },
 ];
 

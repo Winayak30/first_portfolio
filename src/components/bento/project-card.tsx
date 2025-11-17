@@ -40,7 +40,7 @@ export default function ProjectCard({ project }: { project: Project }) {
     setCursorType("project-view");
   };
 
-  return (
+  const CardContent = (
     <div
       style={{
         perspective: "1000px",
@@ -92,4 +92,14 @@ export default function ProjectCard({ project }: { project: Project }) {
       </GlassPanel>
     </div>
   );
+
+  if (project.url) {
+    return (
+      <a href={project.url} target="_blank" rel="noopener noreferrer">
+        {CardContent}
+      </a>
+    );
+  }
+
+  return CardContent;
 }
