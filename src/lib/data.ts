@@ -49,6 +49,7 @@ export const projects: Project[] = [
     title: "DocNav",
     tech: ["Flutter", "Keras", "Firebase"],
     image: "project-3",
+    url: "https://github.com/rifakhan-hub/DocNav_early",
   },
 ];
 
